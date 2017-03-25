@@ -4,7 +4,7 @@
 [![NuGet Package](https://img.shields.io/nuget/vpre/SapientGuardian.InMemoryJsonConfiguration.svg)](https://www.nuget.org/packages/SapientGuardian.InMemoryJsonConfiguration/)
 
 ## Description
-SapientGuardian.InMemoryJsonConfiguration SapientGuardian.InMemoryJsonConfiguration is a configuration provider based on Microsoft.Extensions.Configuration.Json that allows you to use in-memory Json as a configuration source.
+SapientGuardian.InMemoryJsonConfiguration is a configuration provider based on Microsoft.Extensions.Configuration.Json that allows you to use in-memory Json as a configuration source.
 
 ## How to use it
 
