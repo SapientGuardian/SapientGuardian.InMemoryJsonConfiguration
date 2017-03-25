@@ -1,0 +1,26 @@
+version: 1.0.0-{build}
+image: Visual Studio 2017
+install:
+- appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/v4.0.0/nuget.exe
+build_script:
+- cmd: >-
+    dotnet restore	
+
+    dotnet pack .\src\SapientGuardian.InMemoryJsonConfiguration -o .\artifacts\SapientGuardian.InMemoryJsonConfiguration -c Release
+
+    move .\src\SapientGuardian.InMemoryJsonConfiguration\artifacts .\
+test_script:
+- cmd: >-
+    cd test\InMemoryJsonConfigurationTests
+
+    dotnet test
+artifacts:
+- path: 'artifacts\**\*.nupkg'
+deploy:
+  provider: NuGet
+  api_key:
+    secure: 7nX5a7V6wWbtPSJ6bQSU9BRZwJEdn70w0Ydlf5fuk44Gjk9BVgxnYK6u8MNzT2yA
+  artifact: /.*\.nupkg/
+  on:
+    branch: master
+    appveyor_repo_tag: true

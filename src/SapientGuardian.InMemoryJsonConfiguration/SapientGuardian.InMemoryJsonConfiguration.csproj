@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Authors>SapientGuardian</Authors>
+    <Company>SapientGuardian</Company>
+    <Description>SapientGuardian.InMemoryJsonConfiguration is a configuration provider based on Microsoft.Extensions.Configuration.Json that allows you to use in-memory Json as a configuration source</Description>
+    <PackageProjectUrl>https://github.com/SapientGuardian/SapientGuardian.InMemoryJsonConfiguration</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SapientGuardian/SapientGuardian.InMemoryJsonConfiguration</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/SapientGuardian/SapientGuardian.MarathonClient/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>SapientGuardian</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SapientGuardian.InMemoryJsonConfiguration", "src\SapientGuardian.InMemoryJsonConfiguration\SapientGuardian.InMemoryJsonConfiguration.csproj", "{DE0FFA19-E7D7-48EF-B00A-68313E605F60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4CFA41DF-D319-4302-93ED-D158D3D1F52C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5449233F-A04B-47E5-B382-FA46CF6A58E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryJsonConfigurationTests", "test\InMemoryJsonConfigurationTests\InMemoryJsonConfigurationTests.csproj", "{210E0CBB-CB97-4608-99D3-6A56E37C467B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0FFA19-E7D7-48EF-B00A-68313E605F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0FFA19-E7D7-48EF-B00A-68313E605F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0FFA19-E7D7-48EF-B00A-68313E605F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0FFA19-E7D7-48EF-B00A-68313E605F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210E0CBB-CB97-4608-99D3-6A56E37C467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210E0CBB-CB97-4608-99D3-6A56E37C467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210E0CBB-CB97-4608-99D3-6A56E37C467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210E0CBB-CB97-4608-99D3-6A56E37C467B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE0FFA19-E7D7-48EF-B00A-68313E605F60} = {4CFA41DF-D319-4302-93ED-D158D3D1F52C}
+		{210E0CBB-CB97-4608-99D3-6A56E37C467B} = {5449233F-A04B-47E5-B382-FA46CF6A58E8}
+	EndGlobalSection
+EndGlobal
