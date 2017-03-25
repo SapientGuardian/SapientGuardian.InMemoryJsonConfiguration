@@ -1,6 +1,6 @@
 #SapientGuardian.InMemoryJsonConfiguration
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/5r9pl7lgq1josu02?svg=true)](https://ci.appveyor.com/project/SapientGuardian/sapientguardian-inmemoryjsonconfiguration)
 [![NuGet Package](https://img.shields.io/nuget/vpre/SapientGuardian.InMemoryJsonConfiguration.svg)](https://www.nuget.org/packages/SapientGuardian.InMemoryJsonConfiguration/)
 
 ## Description
